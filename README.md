@@ -1,12 +1,12 @@
-# ⚛️ Nuclear Reactor Simulation Dashboard
+# Nuclear Reactor Simulation Dashboard
 
 A high-fidelity, interactive, and scientifically-grounded nuclear reactor simulator built with React. This dashboard models a real-time neutron chain reaction, providing a professional interface for academic demonstration and physics exploration.
 
-## 🎯 Project Overview
+## Project Overview
 
 This simulator provides a visual representation of a simplified nuclear reactor core. It uses a **point-kinetics model** to simulate neutron population dynamics based on user-controlled reactivity parameters.
 
-### ⚛️ Core Physics Model
+### Core Physics Model
 
 The simulation operates on the exponential growth/decay of the neutron population:
 $$N(t+1) = N(t) \times k_{eff}$$
@@ -20,26 +20,26 @@ Where:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- **🎮 Real-time Controls**: 
+- **Real-time Controls**: 
   - **Control Rods**: Adjust insertion percentage ($0\% - 100\%$) to absorb neutrons and lower $k_{eff}$.
   - **Neutron Source**: Inject external neutrons to jumpstart or stabilize the reaction.
   - **Fuel Efficiency**: Modify the fuel's fission cross-section to change reactivity.
-- **📈 Live Data Visualization**: 
+- **Live Data Visualization**: 
   - Recharts-powered interactive line graph tracking neutron population over time.
   - Dynamic Y-axis auto-scaling and historical trend analysis.
-- **🚦 Component-Based Dashboard**:
+- **Component-Based Dashboard**:
   - **Reactor Status Panel**: Visual core representation with animated criticality indicators.
   - **Metrics Dashboard**: Real-time display of $k_{eff}$, thermal power (MW), and doubling time.
-- **🎓 Educational Layer**: 
+- **Educational Layer**: 
   - Integrated tooltips and documentation explaining nuclear engineering concepts.
   - Clear visual feedback for reactor states (Stable, Supercritical, SCRAM Warning).
-- **⚡ Performance-Ready**: Built on **React 19** and **Vite 8** for a buttery-smooth 60fps simulation loop.
+- **Performance-Ready**: Built on **React 19** and **Vite 8** for a buttery-smooth 60fps simulation loop.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: [React 19](https://react.dev/)
 - **Build Tool**: [Vite](https://vitejs.dev/)
@@ -50,7 +50,7 @@ Where:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -83,7 +83,7 @@ Where:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 /src
@@ -100,7 +100,7 @@ index.html             # Entry point and SEO meta tags
 
 ---
 
-## 🔬 Educational Use Case
+## Educational Use Case
 
 This tool is designed to help students and enthusiasts understand:
 1. **Reactivity Control**: How control rods balance fission events.
@@ -109,7 +109,7 @@ This tool is designed to help students and enthusiasts understand:
 
 ---
 
-## ⚖️ Disclaimer
+## Disclaimer
 
 *This simulation is for educational purposes only. It uses simplified point-kinetics equations and does not account for complex variables like thermal-hydraulic feedback, delayed neutron precursors, or xenon poisoning.*
 
